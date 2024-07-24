@@ -55,8 +55,10 @@ form {
         min-width: 300px;
         border: black;
         border-style: solid;
+        border-radius: 5px;
         padding: 16px;
         gap: 16px;
+        text-align: center;
 }
 .formlabel {
         display: flex;

@@ -1,7 +1,7 @@
 # Site settings
-title:
+title: SEO My Biz
 email:
-description: > # this means to ignore newlines until "baseurl:"
+description: Supercharge your website with Search Engine Optimization> # this means to ignore newlines until "baseurl:"
 baseurl: "/website/" # the subpath of your site, e.g. /blog/
 url: "https://rustisaurusrex.github.io" # the base hostname & protocol for your site
 

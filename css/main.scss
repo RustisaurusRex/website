@@ -42,3 +42,25 @@ $theme-dark: #222;
         "mixins",
         "base"
 ;
+
+//form styles
+form {
+        display: flex;
+        justify-content: center;
+        font-family: inherit;
+}
+.innerform {
+        display: flex;
+        flex-direction: column;
+        min-width: 300px;
+        border: black;
+        border-style: solid;
+        padding: 16px;
+        gap: 16px;
+}
+.formlabel {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+}
+//end form styles

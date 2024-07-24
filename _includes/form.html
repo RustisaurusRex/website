@@ -3,16 +3,22 @@
   action="https://formspree.io/f/xovajyyy"
   method="POST"
 >
-  <label>
-    Your email:
+<div class="innerform">
+  <label class="formlabel">
+    Name:
+    <input type="name" name="name">
+  </label>
+  <label class="formlabel">
+    Email:
     <input type="email" name="email">
   </label>
-  <label>
-    Your message:
+  <label class="formlabel">
+    How can we help you?
     <textarea name="message"></textarea>
   </label>
   <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+  <button type="submit">Submit</button>
+</div>
 </form>
 <!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
@@ -26,6 +32,13 @@
     action: "https://formspree.io/f/xovajyyy",
     title: "How can we help?",
     fields: [
+    { 
+        type: "name", 
+        label: "Name:", 
+        name: "name",
+        required: true,
+        placeholder: "John Smith"
+      },
       { 
         type: "email", 
         label: "Email:", 

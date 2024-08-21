@@ -14,6 +14,15 @@
     <input type="email" name="email">
   </label>
   <label class="formlabel">
+    Interested In:
+    <input type="checkbox" id="seo" name="seo" value="SEO">
+      <label for="seo"> SEO</label><br>
+      <input type="checkbox" id="website" name="website" value="Web Design">
+      <label for="website"> Web Design</label><br>
+      <input type="checkbox" id="unsure" name="unsure" value="Unsure">
+      <label for="unsure"> I'm not sure</label><br>
+  </label>
+  <label class="formlabel">
     How can we help you?
     <textarea name="message"></textarea>
   </label>
@@ -46,6 +55,12 @@
         name: "email",
         required: true,
         placeholder: "your@email.com"
+      },
+      {
+        type: "checkbox",
+        label: "Interested in:",
+        name: "interest",
+        placeholder: "What's on your mind?",
       },
       {
         type: "textarea",

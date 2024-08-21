@@ -1,33 +1,42 @@
 <!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/xovajyyy"
-  method="POST"
+ <form
+action="https://formspree.io/f/xovajyyy"
+method="POST"
 >
 <div class="innerform">
-  <h4>Contact Us</h4>
-  <label class="formlabel">
-    Name:
-    <input type="name" name="name">
-  </label>
-  <label class="formlabel">
-    Email:
-    <input type="email" name="email">
-  </label>
-  <label class="formlabel">
-    Interested In:
-    <input class ="checkbox" type="checkbox" id="seo" name="seo" value="SEO">
-      <label for="seo"> SEO</label><br>
-    <input class ="checkbox" type="checkbox" id="website" name="website" value="Web Design">
-      <label for="website"> Web Design</label><br>
-    <input class ="checkbox" type="checkbox" id="unsure" name="unsure" value="Unsure">
-      <label for="unsure"> I'm not sure</label><br>
-  </label>
-  <label class="formlabel">
-    How can we help you?
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Submit</button>
+<h4>Contact Us</h4>
+<label class="formlabel">
+  Name:
+  <input type="name" name="name">
+</label>
+<label class="formlabel">
+  Email:
+  <input type="email" name="email">
+</label>
+<label class="formlabel">
+  Interested In:
+  <div class ="checkbox">
+    <div>
+  <input type="checkbox" id="seo" name="seo" value="SEO">
+    <label for="seo"> SEO</label>
+    </div>
+    <div>
+  <input type="checkbox" id="website" name="website" value="Web Design">
+    <label for="website"> Web Design</label>
+    </div>
+      <div>
+  <input type="checkbox" id="unsure" name="unsure" value="Unsure">
+    <label for="unsure"> I'm not sure</label>
+      </div>
+      </div>
+              </label>
+
+<label class="formlabel">
+  How can we help you?
+  <textarea name="message"></textarea>
+</label>
+<!-- your other form fields go here -->
+<button type="submit">Submit</button>
 </div>
 </form>
 <!-- Read the Formbutton docs at formspree.io/formbutton/docs. See more examples at codepen.io/formspree -->
@@ -60,7 +69,7 @@
         type: "checkbox",
         label: "Interested in:",
         name: "interest",
-        placeholder: "What's on your mind?",
+        placeholder: "",
       },
       {
         type: "textarea",

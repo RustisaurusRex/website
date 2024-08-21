@@ -64,10 +64,14 @@ form {
 .formlabel {
         display: flex;
         justify-content: space-between;
-        gap: 16px;
+        text-align: left;
+        gap:16px;
 }
 .checkbox {
         display: flex;
-        justify-content: space-between;
+flex-direction: column;       
+flex-wrap: wrap;
+gap: 8px;
+margin-left: auto;
 }
 //end form styles

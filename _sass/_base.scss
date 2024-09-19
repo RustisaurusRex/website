@@ -238,7 +238,7 @@ header {
         text-align: center;
         width: 100%;
         height: 100%;
-        @include transition-all;
+        //@include transition-all;
         transition: transform 0.8s;
   transform-style: preserve-3d;
         .portfolio-box-caption-content {

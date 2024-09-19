@@ -259,7 +259,7 @@ header {
             }
         }
     }
-    &:active {
+    &:focus {
         .portfolio-box-caption {
             opacity: 1;
         }

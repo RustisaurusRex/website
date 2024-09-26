@@ -227,9 +227,6 @@ header {
     display: block;
     max-width: 650px;
     margin: 0 auto;
-    .port-front {
-        opacity: 1;
-    }
     .portfolio-box-caption {
         color: white;
         opacity: 0;
@@ -266,9 +263,6 @@ header {
     &.flipped {
         .portfolio-box-caption {
             opacity: 1;
-        .port-front {
-            opacity: 0;
-        }
         }
     }
     @media (min-width: 768px) {

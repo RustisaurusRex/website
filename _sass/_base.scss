@@ -245,7 +245,8 @@ header {
             top: 50%;
             transform: translateY(-50%);
             .project-category,
-            .project-name {
+            .project-name,
+            .plan-details {
                 @include sans-serif-font;
                 padding: 0 15px;
             }
@@ -257,7 +258,7 @@ header {
             .project-name {
                 font-size: 18px;
             }
-            ul.plan-details {
+            .plan-details {
                 font-size: 12px;
                 text-align: left;
             }
@@ -278,7 +279,7 @@ header {
                 .project-name {
                     font-size: 22px;
                 }
-                ul.plan-details {
+                .plan-details {
                     font-size: 10px;
                     text-align: left;
                 }

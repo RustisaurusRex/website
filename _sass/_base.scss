@@ -238,6 +238,9 @@ header {
         width: 100%;
         height: 100%;
         @include transition-all;
+        .port-front {
+            opacity: 1;
+        }
         .portfolio-box-caption-content {
             width: 100%;
             text-align: center;

@@ -47,7 +47,7 @@
 
     //profile card click stay
     $(document).ready(function () {
-        $('.portfolio-card').on('click', function () {
+        $('.portfolio-box').on('click', function () {
           $(this).toggleClass('flipped'); // Toggle the flipped class
         });
       });

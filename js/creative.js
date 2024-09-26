@@ -45,4 +45,12 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    //profile card click stay
+    $(document).ready(function () {
+        $('.portfolio-card').on('click', function () {
+          $(this).toggleClass('flipped'); // Toggle the flipped class
+        });
+      });
+    //end profile card click stay
+
 })(jQuery); // End of use strict

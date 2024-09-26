@@ -259,7 +259,9 @@ header {
             }
         }
     }
-    &:hover, :active {
+    &:hover,
+    &:focus,
+	&:active {
         .portfolio-box-caption {
             opacity: 1;
         }

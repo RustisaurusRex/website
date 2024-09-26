@@ -228,11 +228,11 @@ header {
     max-width: 650px;
     margin: 0 auto;
     .port-front {
-        opacity: 0;
+        opacity: 1;
     }
     .portfolio-box-caption {
         color: white;
-        opacity: 1;
+        opacity: 0;
         display: block;
         background: rgba( $theme-primary, .9 );
         position: absolute;
@@ -265,9 +265,9 @@ header {
     //&:hover,
     &.flipped {
         .portfolio-box-caption {
-            opacity: 0;
-        .port-front {
             opacity: 1;
+        .port-front {
+            opacity: 0;
         }
         }
     }

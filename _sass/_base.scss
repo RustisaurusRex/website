@@ -276,6 +276,11 @@ header {
                 @include sans-serif-font;
                 padding: 0 15px;
             }
+            .plan-details {
+                column-count: 2;
+                column-gap: 2px;
+                padding-bottom: 4px;
+            }
             .project-category {
                 text-transform: uppercase;
                 font-weight: 600;

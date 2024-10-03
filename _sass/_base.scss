@@ -237,6 +237,7 @@ header {
         text-align: center;
         width: 100%;
         height: 100%;
+        text-shadow: 1px 1px 4px black;
         @include transition-all;
         .portfolio-box-caption-content {
             width: 100%;
@@ -249,7 +250,6 @@ header {
                 font-weight: 700;
                 @include sans-serif-font;
                 padding: 0 15px;
-                text-shadow:rgba( $theme-primary, .9 )
             }
         }
     }

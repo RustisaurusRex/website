@@ -244,23 +244,11 @@ header {
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            .project-category,
-            .project-name,
-            .plan-details {
+            .project-name {
+                font-size: 24px;
+                font-weight: 700;
                 @include sans-serif-font;
                 padding: 0 15px;
-            }
-            .project-category {
-                text-transform: uppercase;
-                font-weight: 600;
-                font-size: 14px;
-            }
-            .project-name {
-                font-size: 18px;
-            }
-            .plan-details {
-                font-size: 12px;
-                text-align: left;
             }
         }
     }
@@ -311,7 +299,7 @@ header {
             opacity: 0;
         }
     }
-    
+
     @media (min-width: 768px) {
         .portfolio-box-caption {
             .portfolio-box-caption-content {

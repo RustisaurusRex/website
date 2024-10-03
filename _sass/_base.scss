@@ -249,6 +249,7 @@ header {
                 font-weight: 700;
                 @include sans-serif-font;
                 padding: 0 15px;
+                text-shadow:rgba( $theme-primary, .9 )
             }
         }
     }

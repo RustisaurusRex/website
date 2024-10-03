@@ -227,10 +227,6 @@ header {
     display: block;
     max-width: 650px;
     margin: 0 auto;
-    //overlay text
-    text-align: center;
-    color: white;
-    //end overlay text
     .portfolio-box-caption {
         color: white;
         opacity: 0;
@@ -266,16 +262,13 @@ header {
                 font-size: 12px;
                 text-align: left;
             }
+            /*text overlay*/
+            .overlaytext {
+                opacity: 1;
+                background: initial;
+            }
         }
     }
-
-    /* Centered text */
-.ovcentered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
 
     //&:hover,
     &.flipped {

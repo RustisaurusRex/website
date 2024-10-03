@@ -305,10 +305,16 @@ header {
             opacity: 0;
         }
     }
-
+    /*responsive cards*/
+    @media (max-width: 400px) {
+        .portfolio-box-caption {
+             height: 120%;
+        }
+    }
+    /*end responsive cards*/
+    
     @media (min-width: 768px) {
         .portfolio-box-caption {
-            height: 120%;
             .portfolio-box-caption-content {
                 .project-category {
                     font-size: 16px;

@@ -227,19 +227,6 @@ header {
     display: block;
     max-width: 650px;
     margin: 0 auto;
-        /*text overlay*/
-    .overlaycontainer {
-        position: relative;
-        text-align: center;
-        color: white;
-      }
-      /* Centered text */
-.ovtext {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
     .portfolio-box-caption {
         color: white;
         opacity: 0;

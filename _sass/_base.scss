@@ -262,22 +262,6 @@ header {
                 font-size: 12px;
                 text-align: left;
             }
-            .overlaytext {
-                width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    -webkit-text-size-adjust: 100%;
-    line-height: 1.42857143;
-    -webkit-tap-highlight-color: #222;
-    color: white;
-    text-align: center;
-    box-sizing: border-box;
-    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    padding: 0 15px;
-    font-size: 22px;
-    opacity: 1;
-            }
         }
     }
 

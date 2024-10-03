@@ -227,6 +227,43 @@ header {
     display: block;
     max-width: 650px;
     margin: 0 auto;
+    .cardoverlay {
+        color: white;
+        opacity: 1;
+        display: block;
+        background: initial;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        @include transition-all;
+        .portfolio-box-caption-content {
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            .project-category,
+            .project-name,
+            .plan-details {
+                @include sans-serif-font;
+                padding: 0 15px;
+            }
+            .project-category {
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 14px;
+            }
+            .project-name {
+                font-size: 18px;
+            }
+            .plan-details {
+                font-size: 12px;
+                text-align: left;
+            }
+        }
+    }
     .portfolio-box-caption {
         color: white;
         opacity: 0;
@@ -270,7 +307,11 @@ header {
         .portfolio-box-caption {
             opacity: 1;
         }
+        .cardoverlay {
+            opacity: 0;
+        }
     }
+    
     @media (min-width: 768px) {
         .portfolio-box-caption {
             .portfolio-box-caption-content {

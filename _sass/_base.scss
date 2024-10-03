@@ -306,9 +306,9 @@ header {
         }
     }
     /*responsive cards*/
-    @media (min-width: 400px) {
+    @media (max-width: 460px) {
         .portfolio-box-caption {
-             height: 120%;
+             height: 50vh;
         }
     }
     /*end responsive cards*/

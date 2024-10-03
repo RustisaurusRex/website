@@ -266,7 +266,8 @@ header {
     }
 
     //&:hover,
-    &.flipped {
+    &.flipped, 
+    &.front {
         .portfolio-box-caption {
             opacity: 1;
         }

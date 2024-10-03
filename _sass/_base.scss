@@ -227,6 +227,11 @@ header {
     display: block;
     max-width: 650px;
     margin: 0 auto;
+    /*text overlay*/
+    .overlaytext {
+        opacity: 1;
+        background: initial;
+    }
     .portfolio-box-caption {
         color: white;
         opacity: 0;
@@ -261,11 +266,6 @@ header {
             .plan-details {
                 font-size: 12px;
                 text-align: left;
-            }
-            /*text overlay*/
-            .overlaytext {
-                opacity: 1;
-                background: initial;
             }
         }
     }
